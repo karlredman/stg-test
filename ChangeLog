@@ -1,0 +1,12 @@
+12-20-2000:
+	made the initial programs and built them under autoconfig tools
+
+12-21-2000:
+	Wrote another proof to the third question on doc/STG_TEST. This
+is meant to be a less cheezy proof of the answer I gave in the past.
+
+	Added a bin directory for user execution convenience, a scripts 
+directory for almost no reason at all, and fixed the configure.in and 
+Makefile.am files for better compliance.
+	
+	Added the script my_automake to the distrobution for example purposes

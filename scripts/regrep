@@ -1,0 +1,10 @@
+error ()
+{
+	echo "regrep [directory] [string] (ie. rgrep /etc xdm)"
+}
+
+if [ $1 ] && [ $2 ]; then
+	find $1 -exec grep -ls "$2" {} \; 2>/dev/null
+else
+	error
+fi

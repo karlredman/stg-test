@@ -1,0 +1,4 @@
+files in this directory a used for the following:
+3a.h  - definition of class THING
+3a.cc - class Thing member function definitions
+3a_main - the main program. declares 3 Thing objects and prints a message.
